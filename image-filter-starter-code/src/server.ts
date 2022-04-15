@@ -28,7 +28,7 @@ import { config } from './config/config';
 
         // call filterImageFromURL(image_url) to filter the image
         let filterImagePath = await filterImageFromURL(image_url);
-
+        
         // get file name
         let fileName = filterImagePath.split('/').pop();
         
